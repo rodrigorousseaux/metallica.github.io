@@ -3,15 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-        <title>Metallica</title>
+        <title>Metallica Fan Page</title>
+        <link rel="shortcut icon" href="images/icon.png">
         <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+        
     </head>
 
     <body>
 
         <header>
             <div class="banner">
-
                 <div class="logo">
                     <a href="index.html">
                         <img 
@@ -23,25 +25,66 @@
                 <div class="navBar">
                     <nav>
                         <ul>
-                            <li><a href="">Integrantes</a></li>
+                            <li><a href="#integrantes">Integrantes</a></li>
                             <li><a href="">Discografía</a></li>
                             <li><a href="">Conciertos</a></li>    
                         </ul>
                     </nav>  
-                </div>       
-                    
-            </div>
-                
+                </div>         
+            </div>        
         </header>
 
-        <section>
+        <section class="seccion_integrantes">
+            <h2>INTEGRANTES</h2>
 
+            <div class="contenedor_imagenes">
+
+                <div>
+                    <img 
+                    class="foto_integrantes"
+                    src="images/james2.jpg" 
+                    alt="imagen de james hetfield">
+                    <h3>James Hetfield</h3>
+                    <button type="button" class="btn btn-primary">
+                        <a href="https://es.wikipedia.org/wiki/James_Hetfield" target="_blank">Ver Más</a>
+                    </button>
+                </div>
+
+                <div>
+                    <img 
+                    class="foto_integrantes"
+                    src="images/kirk.jpg" 
+                    alt="imagen de kirk hammet">
+                    <h3>Kirk Hammet</h3>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        <a href="https://es.wikipedia.org/wiki/Kirk_Hammett" target="_blank">Ver Más</a>
+                    </button>
+                </div>
+
+                <div>
+                    <img 
+                    class="foto_integrantes"
+                    src="images/robert.jpg" 
+                    alt="imagen de robert trujillo"> 
+                    <h3>Robert Trujillo</h3>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        <a href="https://es.wikipedia.org/wiki/Robert_Trujillo" target="_blank">Ver Más</a>
+                    </button>
+                </div>
+
+                <div>
+                    <img 
+                    class="foto_integrantes"
+                    src="images/lars3.jpg" 
+                    alt="imagen de lars ulrich">
+                    <h3>Lars Ulrich</h3>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        <a href="https://es.wikipedia.org/wiki/Lars_Ulrich" target="_blank">Ver Más</a>
+                    </button>
+                </div>
+            </div>
         </section>
-
-        <footer>
-
-
-        </footer>
+        
         
     </body>
 </html>
