@@ -9,7 +9,7 @@ body{
 
 header{
     background: -webkit-radial-gradient(top, #19191c , #072c58);
-    width: 100%;
+    width: 99.5%;
     height: auto;
     border: 3px solid #000;
     position: fixed;
@@ -32,7 +32,11 @@ header{
 }
 
 .contenedor_iconos a{
-    color: #1773ea;
+    color: #fff;
+}
+
+.contenedor_iconos a:hover{
+    color: rgb(44, 79, 233);
 }
 
 .contenedor_logo{
@@ -78,6 +82,7 @@ header{
     padding: 10px;/*aumenta el fonndo de la caja*/
     background-color: #000;
     border-radius: 5px;
+    border: 1px solid #000;
 }
 
 .navBar ul li a:hover{
@@ -97,7 +102,7 @@ header{
     border-bottom: 3px solid #000;
 }
 
-.seccion_integrantes h2{
+h2{
     color: white;
     font-size: 40px;
     display: flex;
@@ -136,7 +141,7 @@ header{
     background-color: #000;
     border-radius: 5px;
     font-family: 'Metal Mania', cursive;
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 
 .seccion_integrantes button:hover{
@@ -147,8 +152,8 @@ header{
     background-color: #000;
     background: -webkit-radial-gradient(top, #19191c , #072c58);
     font-family: 'Metal Mania', cursive;
-    transform: scale(1.1);
-    transition-duration: 1s;
+    transform: scale(1.05);
+    transition-duration: .5s;
 }
 
 .seccion_integrantes a{
@@ -156,3 +161,64 @@ header{
     color: #fff;
 }
 
+.seccion_discografia{
+    width: 100%;
+    height: auto;
+    background: -webkit-radial-gradient(top, #383847 , #194171);
+    padding-top: 70px;
+    padding-bottom: 85px;
+    border-bottom: 3px solid #000;
+}
+
+.contenedor_discografia{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto_disco{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.seccion_discografia h3{
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.seccion_discografia button{
+    color: #fff;
+    margin-top: 7%;
+    margin-left: 30%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #000;
+    border-radius: 5px;
+    font-family: 'Metal Mania', cursive;
+    transition-duration: .5s;
+}
+
+.seccion_discografia button:hover{
+    margin-top: 7%;
+    margin-left: 30%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #000;
+    background: -webkit-radial-gradient(top, #19191c , #072c58);
+    font-family: 'Metal Mania', cursive;
+    transform: scale(1.05);
+    transition-duration: .5s;
+}
+
+.seccion_discografia a{
+    text-decoration: none;
+    color: #fff;
+}
