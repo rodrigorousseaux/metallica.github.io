@@ -11,7 +11,7 @@ header{
     background: -webkit-radial-gradient(top, #19191c , #072c58);
     width: 100%;
     height: auto;
-    border: 5px solid #000;
+    border: 3px solid #000;
     position: fixed;
 }
 
@@ -23,27 +23,43 @@ header{
     align-items: center;
 }
 
-.logo{
-    width: 400px;
+.contenedor_iconos{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+
+.contenedor_iconos a{
+    color: #1773ea;
+}
+
+.contenedor_logo{
+    width: 40%;
     height: 100px;
-    margin-left: 5%;
+}
+
+.logo{
+    width: 100%;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo img{
-    width: 350px;
+    width: 100%;
     height: 80px;
 }
 
 .navBar{
-    width: 400px;
+    width: 40%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 15%;
+    padding-left: 40px;
 }
 
 .navBar ul{
