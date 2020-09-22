@@ -140,7 +140,6 @@ h2{
     font-weight: bold;
     background-color: #000;
     border-radius: 5px;
-    font-family: 'Metal Mania', cursive;
     transition-duration: .5s;
 }
 
@@ -151,7 +150,6 @@ h2{
     font-weight: bold;
     background-color: #000;
     background: -webkit-radial-gradient(top, #19191c , #072c58);
-    font-family: 'Metal Mania', cursive;
     transform: scale(1.05);
     transition-duration: .5s;
 }
@@ -181,7 +179,7 @@ h2{
 .foto_disco{
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 5px;
     border: 3px solid #fff;
 }
 
@@ -198,22 +196,20 @@ h2{
     color: #fff;
     margin-top: 7%;
     margin-left: 30%;
-    padding: 10px;
+    padding: 7px;
     font-weight: bold;
     background-color: #000;
     border-radius: 5px;
-    font-family: 'Metal Mania', cursive;
     transition-duration: .5s;
 }
 
 .seccion_discografia button:hover{
     margin-top: 7%;
     margin-left: 30%;
-    padding: 10px;
+    padding: 7px;
     font-weight: bold;
     background-color: #000;
     background: -webkit-radial-gradient(top, #19191c , #072c58);
-    font-family: 'Metal Mania', cursive;
     transform: scale(1.05);
     transition-duration: .5s;
 }
@@ -221,4 +217,70 @@ h2{
 .seccion_discografia a{
     text-decoration: none;
     color: #fff;
+}
+
+.seccion_conciertos{
+    width: 100%;
+    height: auto;
+    background: -webkit-radial-gradient(top, #383847 , #194171);
+    padding-top: 70px;
+    padding-bottom: 80px;
+    border-bottom: 3px solid #000;
+}
+
+.contenedor_conciertos{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+.concierto{
+    widows: 315px;
+    height: 150px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+}
+
+.seccion_conciertos h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seccion_conciertos button{
+    color: #fff;
+    margin-top: 7%;
+    margin-left: 29%;
+    padding: 7px;
+    font-weight: bold;
+    background-color: #ff0000;
+    border-radius: 15px;
+    transition-duration: .5s;
+}
+
+.seccion_conciertos button:hover{
+    margin-top: 7%;
+    margin-left: 29%;
+    padding: 7px;
+    font-weight: bold;
+    opacity: .8;
+    transform: scale(1.05);
+    transition-duration: .5s;
+}
+
+.seccion_conciertos a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: gray;
 }
