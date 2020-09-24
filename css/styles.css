@@ -8,113 +8,74 @@ body{
 }
 
 header{
-    background: -webkit-radial-gradient(top, #19191c , #072c58);
-    width: 99.5%;
     height: auto;
+    background: -webkit-radial-gradient(top, #19191c , #072c58);
     border: 3px solid #000;
-    position: fixed;
 }
 
-.banner{
-    max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.contenedor_iconos{
-    width: 10%;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 70px;
-    font-size: 18px;
-}
-
-.contenedor_iconos a{
-    color: #fff;
-}
-
-.contenedor_iconos a:hover{
-    color: rgb(44, 79, 233);
-}
-
-.contenedor_logo{
-    width: 40%;
-    height: 100px;
+header a{
+    text-decoration: none;
 }
 
 .logo{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo img{
-    width: 100%;
+    width: 300px;
     height: 80px;
 }
 
-.navBar{
-    width: 40%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 40px;
+nav{
+    margin-left: 5%;
 }
 
-.navBar ul{
-    display: flex;/*me pone en linea la barra*/
+li{
+    border: 1px solid #fff;
 }
 
-.navBar ul li{
-    list-style: none;/*le saca los puntitos a la barra*/
-    padding: 3%; /*separa las opciones*/
-}
-
-.navBar ul li a{
+li a{
     text-decoration: none;/*le saca el subrayado*/
-    color: #fff;
     font-weight: bold;
     padding: 10px;/*aumenta el fonndo de la caja*/
     background-color: #000;
-    border-radius: 5px;
-    border: 1px solid #000;
 }
 
-.navBar ul li a:hover{
-    font-weight: bold;
-    padding: 10px;
+li a:hover{
     background: -webkit-radial-gradient(top, #383847 , #194171);
-    border-radius: 5px;
-    border: 1px solid #000;
 }
 
-.seccion_integrantes{
-    width: 100%;
+h1{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.subrayado{
+    background: #444649;
+    height: 4px;
+    width: 70px;
+    margin-bottom: 7%;
+}
+
+.seccion_banda{
     height: auto;
     background: -webkit-radial-gradient(top, #383847 , #194171);
-    padding-top: 175px;
+    padding-top: 85px;
     padding-bottom: 85px;
     border-bottom: 3px solid #000;
 }
 
-h2{
-    color: white;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
+.contenedor{
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 5px;
+    background: -webkit-radial-gradient(top, #19191c , #072c58);  
 }
 
-.contenedor_imagenes{
-    width: 100%;
+.seccion_integrantes{
     height: auto;
-    padding-top: 5%;
-    display: flex;
-    justify-content: space-around;
+    background: -webkit-radial-gradient(top, #383847 , #194171);
+    padding-top: 70px;
+    padding-bottom: 85px;
+    border-bottom: 3px solid #000;
 }
 
 .foto_integrantes{
@@ -127,15 +88,13 @@ h2{
 .seccion_integrantes h3{
     color: #fff;
     font-size: 20px;
-    padding-top: 10px;
     display: flex;
     justify-content: center;
 }
 
 .seccion_integrantes button{
     color: #fff;
-    margin-top: 7%;
-    margin-left: 25%;
+    margin-top: 3%;
     padding: 10px;
     font-weight: bold;
     background-color: #000;
@@ -144,8 +103,7 @@ h2{
 }
 
 .seccion_integrantes button:hover{
-    margin-top: 7%;
-    margin-left: 25%;
+    margin-top: 3%;
     padding: 10px;
     font-weight: bold;
     background-color: #000;
@@ -224,7 +182,7 @@ h2{
     height: auto;
     background: -webkit-radial-gradient(top, #383847 , #194171);
     padding-top: 70px;
-    padding-bottom: 80px;
+    padding-bottom: 85px;
     border-bottom: 3px solid #000;
 }
 
@@ -279,8 +237,66 @@ h2{
     color: #fff;
 }
 
+.seccion_registro{
+    height: auto;
+    background: -webkit-radial-gradient(top, #383847 , #194171);
+    padding-top: 70px;
+    padding-bottom: 85px;
+    border-bottom: 3px solid #000;
+}
+
 footer{
     width: 100%;
     height: 20vh;
-    background-color: gray;
+    background: -webkit-radial-gradient(top, #19191c , #072c58);
+}
+
+.centrar_iconos{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_iconos{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: auto;
+    border: 1px solid orange;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.iconos{
+    width: 100px;
+    font-size: 18px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconos a{
+    color: #fff;
+}
+
+.iconos a:hover{
+    color: rgb(44, 79, 233);
+}
+
+.contenedor_creador{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: auto;
+    border: 1px solid orange;
+    margin-bottom: 30px;
+}
+
+.nombre_creador{
+    color: black;
+    width: 100px;
+    font-size: 18px;
+    height: auto;
 }

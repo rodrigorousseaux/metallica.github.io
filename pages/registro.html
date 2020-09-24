@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-        <title>Metallica Fan Page</title>
-        <link rel="stylesheet" href="ext/css/bootstrap.min.css">
-        <link rel="shortcut icon" href="images/icon.png">
-        <link rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link rel="stylesheet" href="../ext/css/bootstrap.min.css">
+        <link rel="shortcut icon" href="../images/icon.png">
+        <link rel="stylesheet" href="../css/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/720136c9e8.js" crossorigin="anonymous"></script>
     </head>
@@ -21,7 +22,7 @@
                     <a href="index.html">
                         <img
                         class="logo"
-                        src="images/logo.png" 
+                        src="../images/logo.png" 
                         alt="logo de metallica">
                     </a>
 
@@ -34,19 +35,19 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                           <ul class="navbar-nav bg-dark">
                             <li class="nav-item">
-                              <a class="nav-link text-white" href="index.html">Historia</a>
+                              <a class="nav-link text-white" href="../index.html">Historia</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link text-white" href="pages/integrantes.html" target="_blank">Integrantes</a>
+                              <a class="nav-link text-white" href="integrantes.html">Integrantes</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link text-white" href="pages/discografia.html" target="_blank">Discografía</a>
+                              <a class="nav-link text-white" href="discografia.html">Discografía</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="pages/conciertos.html" target="_blank">Conciertos</a>
+                                <a class="nav-link text-white" href="conciertos.html">Conciertos</a>
                               </li>
                             <li class="nav-item">
-                                <a class="nav-link text-warning" href="pages/registro.html" target="_blank">Registrate</a>
+                                <a class="nav-link text-warning" href="registro.html" target="_blank">Registrate</a>
                             </li>
                           </ul>
                         </div>
@@ -54,20 +55,47 @@
                     </nav>
                 </div> 
             </div>     
-        </header> 
-        
+        </header>
 
-        <section class="container-fluid seccion_banda">
-            <h1>LA BANDA</h1>
+        <section class="container-fluid seccion_registro">
 
-            <div class="contenedor_banda">
+            <h2 class="text-center text-white">REGISTRATE</h2>
 
-                
-
-                
+            <div class="d-flex justify-content-center mt-3">
+                <div class="mb-5 bg-light subrayado"></div>
             </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-xl-5 col-lg-6 col-md-6 col-xs-12 contenedor">
+                    
+                    <form method="POST" action="#">
+
+                        <div class="form-group text-white">
+                            <label for="nombre">Nombre Completo <span class="text-danger">*</span></label>
+                            <input id="nombre" type="text" class="form-control" placeholder="Nombre Completo" required />
+                        </div>
+                        
+                        <div class="form-group text-white">
+                            <label for="correo">E-mail <span class="text-danger">*</span></label>
+                            <input id="correo" type="email" class="form-control" placeholder="ejemplo@correo.com" required />
+                        </div>
+
+                        <div class="form-group text-white">
+                            <label for="comentario">Comentario <span class="text-danger">*</span></label>
+                            <textarea id="comentario" class="form-control"  placeholder="Su mensaje" required></textarea>
+                        </div>  
+
+                        <button class="btn btn-success btn-block">Enviar</button>
+                            
+                    </form>
+
+                </div>
+               
+            </div>
+
         </section>
-      
+
         <footer>
             <div class="centrar_iconos">
                 <div class="contenedor_iconos">
@@ -82,5 +110,6 @@
             </div>
             
         </footer>
+        
     </body>
 </html>
