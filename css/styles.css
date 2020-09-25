@@ -177,25 +177,27 @@ h1{
 .seccion_conciertos h3{
     color: #fff;
     font-size: 20px;
+    padding-bottom: 2%;
+    font-weight: bold;
 }
 
 .seccion_conciertos button{
     color: #fff;
-    margin-top: 7%;
-    margin-left: 30%;
+    margin-top: 5%;
     padding: 7px;
     font-weight: bold;
     background-color: #ff0000;
+    opacity: .7;
     border-radius: 15px;
     transition-duration: .5s;
 }
 
 .seccion_conciertos button:hover{
-    margin-top: 7%;
-    margin-left: 30%;
+    margin-top: 5%;
     padding: 7px;
     font-weight: bold;
-    opacity: .8;
+    background-color: #ff0000;
+    opacity: .9;
     transform: scale(1.05);
     transition-duration: .5s;
 }
