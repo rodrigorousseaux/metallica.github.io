@@ -52,6 +52,13 @@ h1{
     margin-bottom: 7%;
 }
 
+.contenedor{
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 5px;
+    background: -webkit-radial-gradient(top, #19191c , #072c58);  
+}
+
 .seccion_banda{
     height: auto;
     background: -webkit-radial-gradient(top, #383847 , #194171);
@@ -60,11 +67,16 @@ h1{
     border-bottom: 3px solid #000;
 }
 
-.contenedor{
-    border: 2px solid #fff;
-    padding: 20px;
+.imagen_banda{
+    width: 417px;
+    height: 250px;
     border-radius: 5px;
-    background: -webkit-radial-gradient(top, #19191c , #072c58);  
+    border: 3px solid #000;
+}
+
+.seccion_banda p{
+    color: #fff;
+    font-size: 20px;
 }
 
 .seccion_integrantes{
