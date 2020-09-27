@@ -228,57 +228,45 @@ h1{
 }
 
 footer{
+    color: #fff;
     width: 100%;
-    height: 20vh;
+    height: auto;
     background: -webkit-radial-gradient(top, #19191c , #072c58);
 }
 
-.centrar_iconos{
-    width: 100%;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.borde_redes{
+    border: 1px solid #fff;
 }
 
-.contenedor_iconos{
-    display: flex;
-    justify-content: center;
-    width: 100px;
-    height: auto;
-    border: 1px solid orange;
-    padding: 10px;
-    margin-bottom: 30px;
+.icono{
+    font-size: 30px;
+    transition-duration: 800ms;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
-.iconos{
-    width: 100px;
-    font-size: 18px;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
+.facebook{
+    color: #1773ea;
 }
 
-.iconos a{
-    color: #fff;
+.insta{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, 
+    #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.iconos a:hover{
-    color: rgb(44, 79, 233);
+.youtube{
+    color: #ff0000;
 }
 
-.contenedor_creador{
-    display: flex;
-    justify-content: center;
-    width: 100px;
-    height: auto;
-    border: 1px solid orange;
-    margin-bottom: 30px;
+/*Transformaciones: Comienzan y terminan*/
+.icono:hover{
+    transform: scale(1.1); /*te agranda la imagen*/
+    transition-duration: 400ms; /*La agranda un poco mas despacio*/  
 }
 
-.nombre_creador{
-    color: black;
-    width: 100px;
-    font-size: 18px;
-    height: auto;
+footer a:hover{
+    text-decoration: none;
 }
