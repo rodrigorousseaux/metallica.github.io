@@ -1,0 +1,41 @@
+.navBarAnimado{
+
+    position: relative;
+    animation-name: animacion1;
+    -moz-animation-name: animacion1;
+    -ms-animation-name: animacion1;
+    animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -ms-animation-duration: 0.5s;
+}
+
+@keyframes animacion1{
+
+    0%{
+        left: 110%;
+    }  
+    100%{
+        left: 0px;
+    }
+}
+
+.logoAnimado{
+
+    position: relative;
+    animation-name: animacion2;
+    -moz-animation-name: animacion2;
+    -ms-animation-name: animacion2;
+    animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -ms-animation-duration: 0.5s;
+}
+
+@keyframes animacion2{
+
+    0%{
+        left: -110%;
+    }  
+    100%{
+        left: 0px;
+    }
+}
