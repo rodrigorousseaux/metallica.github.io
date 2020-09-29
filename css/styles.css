@@ -222,16 +222,46 @@ h1{
 .seccion_registro{
     height: auto;
     background: -webkit-radial-gradient(top, #383847 , #194171);
-    padding-top: 70px;
-    padding-bottom: 85px;
+    padding-top: 120px;
+    padding-bottom: 135px;
     border-bottom: 3px solid #000;
 }
 
 footer{
-    color: #fff;
-    width: 100%;
     height: auto;
+    width: 100%;
     background: -webkit-radial-gradient(top, #19191c , #072c58);
+}
+
+.footer button{
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    background: -webkit-radial-gradient(top, #383847 , #194171);
+    transition-duration: .5s;
+    margin-bottom: 30px;
+}
+
+.footer button:hover{
+    padding: 5px;
+    font-weight: bold;
+    background-color: #000;
+    background: -webkit-radial-gradient(top, #19191c , #072c58);
+    transform: scale(1.05);
+    transition-duration: .5s;
+}
+
+footer p{
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #fff;
 }
 
 .borde_redes{
@@ -261,11 +291,13 @@ footer{
     color: #ff0000;
 }
 
+.github{
+    font-size: 30px;
+    padding-right: 5px;
+    color: #fff;
+}
+
 .icono:hover{
     transform: scale(1.1);
     transition-duration: 400ms;
-}
-
-footer a:hover{
-    text-decoration: none;
 }
